@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        /* 
+        MEDIDAS ABSOLUTAS
+        cm, mm, in, px, pt, pc
+
+        MEDIDAS RELATIVAS
+        em, ex, rem, vw, vh, %
+        
+        16px(medida padrão dos navegadores )= 1em
+        
+        USAR SEMPRE COMO MEDIDAS OFICIAL = em ou px,
+        */
+        body { /*
+            
+            podemos fazer um <shorthand font> para fazar uma fraze para tudo:
+                ---font-style -> font-weight -> font-size -> font-family ---
+             
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: Arial, Helvetica, sans-serif; */
+
+            /* fazendo dessa forma*/
+            font: italic border 3em arial Helvetica sans-serif;
+        
+        }
+        
+        h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>trabalhando com fontes</h1>  
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium eos ullam minus fuga quia eligendi, illo suscipit eius repellat rerum in iure itaque laboriosam? Molestias iure harum reprehenderit magnam ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, beatae inventore voluptatum, iusto ipsa repellat sapiente maiores corrupti alias perspiciatis recusandae odit soluta voluptas tempore exercitationem blanditiis incidunt natus ab.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, maxime magnam! Aliquid mollitia distinctio beatae, nostrum alias veritatis maxime, accusantium eligendi doloribus tempore aut laboriosam quia. Tempora beatae ab vel.</p>
+    <h2>Subtitulis do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet autem incidunt inventore placeat, quis cumque ut unde animi iure dolores rerum quae, eius nesciunt, temporibus amet molestiae similique quibusdam enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus laudantium maiores labore doloribus? Reprehenderit, nobis. Soluta eaque corporis perferendis. Sit, vero laudantium repellat facere ea natus commodi tenetur inventore fugit.</p>
+
+</body>
+</html>
