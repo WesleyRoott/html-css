@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+
+:root {
+    --fonte-header: 'Bellota Text', 'cursive';
+    --fonte-copy: 'Phudu', 'cursive';
+    --fonte-copy2: 'Poiret One', 'cursive';
+
+    --cor0: #2E4272;  /*Cor primária principal*/ 
+    --cor1: #7887AB;
+    --cor2: #4F618F;
+    --cor3: #162856;
+    --cor4: #061539;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+header {    
+    color: white;
+    font-family: var(--fonte-header);
+    text-align: center;
+    margin: 5vh;
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+nav {
+    text-align: center;
+    font-family: var(--fonte-header);
+    
+}
+
+a {
+    margin-left: 20px;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1.2em;
+}
+
+a:hover {
+    background-color: #2E4272;
+    
+    
+}
+
+section {
+    background-color: bisque;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 80px;
+    font-family: var(--fonte3);
+    font-size: 2em;
+}
+
+
+    
